@@ -1,0 +1,60 @@
+
+.App{
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  padding-top: 1vh;
+  padding-bottom: 10vh;
+}
+.App-heading-div{
+  display: flex;
+  justify-content: center;
+  /* background-color: aliceblue; */
+  box-sizing: border-box;
+}
+.App-heading{
+  font-size: 3rem;
+  font-weight: bold;
+  border: 5px dashed rgb(17, 0, 85);
+  display: inline-block ;
+  text-align: center;
+  width: 40%;
+  height: 12vh;
+  padding-top: 2vh;
+  border-radius: 2rem;
+}
+.App-product{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.App-empty{
+  position: absolute;
+  /* background-color: rebeccapurple; */
+  top: 20vh;
+  
+}
+.App-empty-desc{
+  font-size: 5rem;
+  color: aliceblue;
+  text-shadow: 0px 0px 10px black , 0px 0px 10px black , 0px 0px 10px black;
+}
+.App-empty-btn{
+  margin-left: 30%;
+  margin-top: 2vh;
+  height: 10vh;
+  width: 40%;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.App-empty-btn:hover{
+  background-color: red;
+}
+.hidden{
+  scale: 0;
+}
+.visible{
+  scale : 1;
+}

@@ -1,0 +1,13 @@
+.Product-storage{
+    box-sizing: border-box;
+    height: auto;
+    width: 86%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2vh;
+    grid-gap: 3%;
+    padding-bottom: 2vh;
+    align-items:self-start; 
+}
